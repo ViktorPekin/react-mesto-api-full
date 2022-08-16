@@ -1,0 +1,7 @@
+.popup-delete-card__container {
+  width: 430px;
+  min-height: 181px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}

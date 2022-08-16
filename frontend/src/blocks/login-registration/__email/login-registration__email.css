@@ -1,0 +1,20 @@
+.login-registration__email {
+  height: 30px;
+  margin-top: 50px;
+  background-color: black;
+  border: none;
+  border-bottom: solid 2px #CCCCCC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.login-registration__email::placeholder {
+  color:#CCCCCC;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

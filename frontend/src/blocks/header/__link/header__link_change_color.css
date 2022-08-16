@@ -1,0 +1,12 @@
+.header__link_change_color{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+.header__link_change_color:hover{
+  opacity: 0.6;
+}

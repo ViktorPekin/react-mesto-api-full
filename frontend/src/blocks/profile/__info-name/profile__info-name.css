@@ -1,0 +1,6 @@
+.profile__info-name {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

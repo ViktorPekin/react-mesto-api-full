@@ -1,0 +1,20 @@
+.profile__button {
+  background: center/cover no-repeat url(../../../images/profile-button.svg);
+  width: 150px;
+  height: 50px;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.profile__button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 583px) {
+  .profile__button {
+    background: center/cover no-repeat url(../../../images/profile-button-320.svg);
+    width: 282px;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,9 @@
+.popup__button_valid {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popup__button_valid:hover {
+  opacity: 0.8;
+}
