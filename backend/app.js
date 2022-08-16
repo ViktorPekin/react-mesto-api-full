@@ -20,18 +20,18 @@ const app = express();
 app.use(bodyParser.json());
 
 const allowedCors = [
-  'https://praktikum.tk',
-  'http://praktikum.tk',
+  'https://mesto41.students.nomoredomains.sbs',
+  'http://mesto41.students.nomoredomains.sbs',
   'localhost:3000',
 ];
 
 app.use((req, res, next) => {
   const { origin } = req.headers;
-
-/*   if (allowedCors.includes(origin)) {
+  if (allowedCors.includes(origin)) {
     res.header('Access-Control-Allow-Origin', origin);
-  } */
-  res.header('Access-Control-Allow-Origin', '*');
+  } else {
+    next();
+  }
   const { method } = req;
   const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
   const requestHeaders = req.headers['access-control-request-headers'];
