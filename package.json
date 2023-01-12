@@ -1,6 +1,7 @@
 {
   "name": "mesto-react",
   "version": "0.1.0",
+  "homepage": "https://viktorpekin.github.io/react-mesto-api-full/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && scp -r ./build/* vitekkk@51.250.74.197::/home/praktikum/mesto-frontend"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
